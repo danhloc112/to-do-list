@@ -76,7 +76,7 @@ body {
 .note-item {
     padding: 8px 0;
     font-size: 1.6rem;
-    border-bottom: solid 1px var(--background-color);
+    border-bottom: dashed 1px var(--background-color);
     color: var(--text-color);
     font-family: 'Pangolin', cursive;
 }
@@ -88,10 +88,10 @@ body {
     margin-top: 2px;
 }
 .trash {
-    font-size: 1.4rem;
+    width: 1.3rem;
     color: var(--background-color);
     text-align: center;
-    padding-top: 2px;
+    /* padding-top: 2px; */
     cursor: pointer;
 }
 .done {
